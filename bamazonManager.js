@@ -38,7 +38,8 @@ var start = function () {
                 break;
             case "End Session":
                 console.log(' ');
-                console.log('Bye!');
+                console.log('Have a great day!');
+                process.exit(-1);
         }
     });
 }
