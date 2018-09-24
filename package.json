@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Adam28P/Bamazon/issues"
   },
-  "homepage": "https://github.com/Adam28P/Bamazon#readme"
+  "homepage": "https://github.com/Adam28P/Bamazon#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
 }
