@@ -58,13 +58,14 @@ var start = function () {
                     console.log(' ');
                     console.log("Success! Your total is $" + grandTotal.toFixed(2) + ". Your item(s) will be shipped to you in 3-5 business days.");
                     console.log(' ');
+                    restart();
                 });
             } else {
                 console.log(' ');
                 console.log("Sorry, there's not enough in stock!");
                 console.log(' ');
+                restart();
             }
-            restart();
         });
     });
 }
@@ -81,6 +82,7 @@ function restart() {
         } else {
             console.log(' ');
             console.log("Thank you, come again!");
+            process.exit(-1);
         }
     });
 }
