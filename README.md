@@ -21,7 +21,7 @@
 </ul>
 <br />
    Once the user has placed their order, the application checks if the store has enough of the product to meet the user's request. If there isn't enough product, the app will prevent the order from going through. However, if the store does have enough of the product, the user's order will be fulfilled.
- 
+ <hr />
 <strong><li>bamazonManager.js</li></strong>
 <ul>
 <li>Shows the following menu to the user:</li>
