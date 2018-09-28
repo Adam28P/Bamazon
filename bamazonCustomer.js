@@ -16,6 +16,7 @@ connection.connect(function (err) {
     start();
 })
 
+// function to initially show all items in the store
 var start = function () {
     //prints the items for sale and their details
     connection.query('SELECT * FROM products', function (err, res) {
@@ -31,6 +32,7 @@ var start = function () {
         }
         console.log(' ');
 
+        // inquirer function to ask the user what they would like to do
         inquirer.prompt([{
             name: "idToPurchase",
             type: "input",
@@ -53,11 +55,13 @@ var start = function () {
                     {
                         item_id: answer.idToPurchase
                     }
+
                 ], function (err, result) {
                     if (err) throw err;
                     console.log(' ');
                     console.log("Success! Your total is $" + grandTotal.toFixed(2) + ". Your item(s) will be shipped to you in 3-5 business days.");
                     console.log(' ');
+
                     restart();
                 });
             } else {

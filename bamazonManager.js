@@ -16,6 +16,7 @@ connection.connect(function (err) {
     start();
 })
 
+// inquirer function to ask the user what they would like to do
 var start = function () {
     inquirer.prompt([{
         name: "managerOptions",
