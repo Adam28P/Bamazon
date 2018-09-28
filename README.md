@@ -6,6 +6,7 @@
 <li>Clone the repository to your computer</li>
 <li>Run command 'npm install'</li>
 <li>Run command 'npm install mysql'</li>
+<li>Create a MYSQL database called 'Bamazon', reference the schema.sql file</li>
 <li>Run command 'node bamazonCustomer.js' or 'node bamazonManager.js'</li>
 </ul>
 
