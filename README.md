@@ -32,6 +32,9 @@
 <li>Add new product</li>
 </ul>
 </ul>
+<br />
+If the user selects `View Products for Sale`, the app should list every available item: the item IDs, names, prices, and quantities. If the user selects `View Low Inventory`, then it should list all items with an inventory count lower than five. If the user selects `Add to Inventory`, your app should display a prompt that will let the user  "add more" of any item currently in the store. If the user selects `Add New Product`, it should allow the user to add a completely new product to the store.
+
 </ol>
 <hr />
 <h3>Have fun!</h3>
